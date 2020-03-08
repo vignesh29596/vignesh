@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20154" started-at="2020-03-08T17:02:34Z" finished-at="2020-03-08T17:02:54Z">
+    <groups>
+      <group name="homepagetest">
+        <method signature="TestNGFeatures.test3(java.lang.String)[pri:3, instance:com.qa.demoproject.TestNGFeatures@1b604f19]" name="test3" class="com.qa.demoproject.TestNGFeatures"/>
+      </group> <!-- homepagetest -->
+      <group name="searchpagetest">
+        <method signature="TestNGFeatures.test2()[pri:2, instance:com.qa.demoproject.TestNGFeatures@1b604f19]" name="test2" class="com.qa.demoproject.TestNGFeatures"/>
+      </group> <!-- searchpagetest -->
+      <group name="logintest">
+        <method signature="TestNGFeatures.test1()[pri:1, instance:com.qa.demoproject.TestNGFeatures@1b604f19]" name="test1" class="com.qa.demoproject.TestNGFeatures"/>
+      </group> <!-- logintest -->
+    </groups>
+    <test name="Test" duration-ms="20154" started-at="2020-03-08T17:02:34Z" finished-at="2020-03-08T17:02:54Z">
+      <class name="com.qa.demoproject.TestNGdemo">
+        <test-method status="PASS" signature="parameterdemo(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.demoproject.TestNGdemo@7823a2f9]" name="parameterdemo" duration-ms="5" started-at="2020-03-08T17:02:34Z" finished-at="2020-03-08T17:02:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vignesh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vicky654]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameterdemo -->
+      </class> <!-- com.qa.demoproject.TestNGdemo -->
+      <class name="com.qa.demoproject.TestNGFeatures">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.demoproject.TestNGFeatures@1b604f19]" name="setup" is-config="true" duration-ms="9" started-at="2020-03-08T17:02:34Z" finished-at="2020-03-08T17:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="appinstall()[pri:0, instance:com.qa.demoproject.TestNGFeatures@1b604f19]" name="appinstall" is-config="true" duration-ms="0" started-at="2020-03-08T17:02:34Z" finished-at="2020-03-08T17:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appinstall -->
+        <test-method status="PASS" signature="readytocode()[pri:0, instance:com.qa.demoproject.TestNGFeatures@1b604f19]" name="readytocode" is-config="true" duration-ms="0" started-at="2020-03-08T17:02:34Z" finished-at="2020-03-08T17:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readytocode -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.qa.demoproject.TestNGFeatures@1b604f19]" name="openBrowser" is-config="true" duration-ms="5061" started-at="2020-03-08T17:02:34Z" finished-at="2020-03-08T17:02:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="test1()[pri:1, instance:com.qa.demoproject.TestNGFeatures@1b604f19]" name="test1" duration-ms="2" started-at="2020-03-08T17:02:39Z" finished-at="2020-03-08T17:02:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.qa.demoproject.TestNGFeatures@1b604f19]" name="closebrowser" is-config="true" duration-ms="641" started-at="2020-03-08T17:02:39Z" finished-at="2020-03-08T17:02:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.qa.demoproject.TestNGFeatures@1b604f19]" name="openBrowser" is-config="true" duration-ms="3820" started-at="2020-03-08T17:02:40Z" finished-at="2020-03-08T17:02:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="test2()[pri:2, instance:com.qa.demoproject.TestNGFeatures@1b604f19]" name="test2" duration-ms="1" started-at="2020-03-08T17:02:44Z" depends-on-methods="com.qa.demoproject.TestNGFeatures.test1" finished-at="2020-03-08T17:02:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.qa.demoproject.TestNGFeatures@1b604f19]" name="closebrowser" is-config="true" duration-ms="594" started-at="2020-03-08T17:02:44Z" finished-at="2020-03-08T17:02:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.qa.demoproject.TestNGFeatures@1b604f19]" name="openBrowser" is-config="true" duration-ms="4332" started-at="2020-03-08T17:02:44Z" finished-at="2020-03-08T17:02:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="test3(java.lang.String)[pri:3, instance:com.qa.demoproject.TestNGFeatures@1b604f19]" name="test3" duration-ms="2" started-at="2020-03-08T17:02:49Z" finished-at="2020-03-08T17:02:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vicky654]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.qa.demoproject.TestNGFeatures@1b604f19]" name="closebrowser" is-config="true" duration-ms="700" started-at="2020-03-08T17:02:49Z" finished-at="2020-03-08T17:02:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.qa.demoproject.TestNGFeatures@1b604f19]" name="openBrowser" is-config="true" duration-ms="4374" started-at="2020-03-08T17:02:49Z" finished-at="2020-03-08T17:02:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="test3(java.lang.String)[pri:3, instance:com.qa.demoproject.TestNGFeatures@1b604f19]" name="test3" duration-ms="1" started-at="2020-03-08T17:02:54Z" finished-at="2020-03-08T17:02:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vicky654]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.qa.demoproject.TestNGFeatures@1b604f19]" name="closebrowser" is-config="true" duration-ms="579" started-at="2020-03-08T17:02:54Z" finished-at="2020-03-08T17:02:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.demoproject.TestNGFeatures@1b604f19]" name="teardown" is-config="true" duration-ms="1" started-at="2020-03-08T17:02:54Z" finished-at="2020-03-08T17:02:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setdown()[pri:0, instance:com.qa.demoproject.TestNGFeatures@1b604f19]" name="setdown" is-config="true" duration-ms="0" started-at="2020-03-08T17:02:54Z" finished-at="2020-03-08T17:02:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setdown -->
+      </class> <!-- com.qa.demoproject.TestNGFeatures -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
